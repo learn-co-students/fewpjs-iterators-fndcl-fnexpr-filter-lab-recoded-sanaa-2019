@@ -1,19 +1,19 @@
 // Code your solution here
 
-function findMatching(drivers, str) {
+function findMatching(drivers, strong) {
     return drivers.filter(function (driver) {
-        return driver.toLowerCase() == str.toLowerCase();
+        return driver.toLowerCase() == string.toLowerCase();
     })
 }
 
 
-function fuzzyMatch(drivers, str) {
+function fuzzyMatch(drivers, string) {
     return drivers.filter(function (driver) {
-        return driver[0].toLowerCase() == str[0].toLowerCase();
+        return driver[0].toLowerCase() == string[0].toLowerCase();
     })
 }
-function matchName(drivers, str) {
+function matchName(drivers, string) {
     return drivers.filter(function (driver) {
-        return driver.name == str;
+        return driver.name == string;
     })
 } 
